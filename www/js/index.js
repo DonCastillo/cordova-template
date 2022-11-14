@@ -7,7 +7,6 @@ function onDeviceReady() {
 
     var options = {
         quality: 100,
-        destinationType: Camera.DestinationType.FILE_URI 
     }
 
     $('#takePhoto').on('click', takePhoto);
